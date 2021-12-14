@@ -140,6 +140,7 @@ export function NetscriptCorporation(
         name: material.name,
         qty: material.qty,
         qlt: material.qlt,
+        marketPrice: material.bCost,
       };
     },
     getProduct: function (adivisionName: any, aproductName: any): NSProduct {
